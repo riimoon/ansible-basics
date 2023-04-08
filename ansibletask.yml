@@ -1,7 +1,8 @@
 ---
-  - name: Install vim
+  - name: Creat file under /tmp
     hosts: localhost
     tasks:
-      - name: Install vim
-        yum:
-          name: vim  
+      - name: creat file
+        file:
+          path: /tmp/file.yml
+          state: touch  
