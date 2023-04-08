@@ -1,0 +1,7 @@
+---
+  - name: Install vim
+    hosts: localhost
+    tasks:
+      - name: Install vim
+        yum:
+          name: vim  
