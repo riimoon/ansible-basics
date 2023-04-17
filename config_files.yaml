@@ -1,0 +1,20 @@
+---
+  - name: Creat config files
+    hosts: localhost
+    tasks:
+      - name: add test_config1
+        file:
+          path: /root/test_config1
+          state: touch
+          mode: g=rw
+      - name: add test_config2
+        file:
+          path: /root/test_config2
+          state: touch
+          mode: g=rw
+      - name: add test_config3
+        file:
+          path: /root/test_config3
+          state: touch 
+          mode: g=rw
+
