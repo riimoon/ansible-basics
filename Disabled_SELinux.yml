@@ -7,3 +7,5 @@
           path: /etc/selinux/config
           regexp: 'SELINUX='
           line: 'SELINUX=disasbled'
+
+             
