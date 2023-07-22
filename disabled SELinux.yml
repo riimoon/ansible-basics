@@ -7,3 +7,11 @@
           path: /etc/selinux/config
           regexp: 'SELINUX='
           line: 'SELINUX=disasbled'
+
+#Clone ansible-basics repository (main branch) in "ansible-server"
+#Create a branch from main called : feature/homework1
+
+#to create branch I used 
+#git branch - shows how many branches working
+#git checkout -b feature/homework1 - create new branche and switch
+
