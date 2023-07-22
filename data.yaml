@@ -1,0 +1,11 @@
+list :
+  - apple
+  - banana
+  - orange 
+
+grocery_map:
+  bakery: bread
+  dairy: milk
+  vegatebles: tomato
+  friuts: banana
+

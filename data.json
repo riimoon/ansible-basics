@@ -1,0 +1,16 @@
+{
+    "list": [
+        "apple",
+        "banana",
+        "orange"
+    ],
+
+
+    "grocery_map": {
+        "bakery": "bread",
+        "dairy": "milk",
+        "vegetables": "tomato",
+        "friuts": "banana"
+
+    }
+}
